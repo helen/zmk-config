@@ -34,13 +34,14 @@
 
         lower {
             // ----------------------------------------------------------------------------------------------------------
-            // |  ESC  |  F2  |  F3  |  F4  |  F5  |  F6  |-------|-------|   F7  |  F8   |  F9  | F10  |  F11  |  F12  |
-            // |   ~   |  !   |  @   |  #   |  $   |  %   |-------|-------|   ^   |   &   |  *   |  (   |   )   |  DEL  |
-            // |       |  F1  |  F2  |  F3  |  F4  |  F5  |-------|-------|   F6  |   _   |  +   |  {   |   }   |   |   |
-            // |       |  F7  |  F8  |  F9  |  F10 |  F11 |-------|-------|   F12 | LS(#) |LS(|) |      |       |       |
-            // |-------|      |      |      |      |      |       |       |       | NEXT  | Vol- | Vol+ | PLAY  |-------|
+			// |  F1   |  F2  |  F3  |  F4  |  F5  |  F6  |-------|-------|   F7  |  F8   |  F9  | F10  |  F11  |  F12  |
+			// |       |      | EJECT|      |      |      |-------|-------|  KP / | KP 7  | KP 8 | KP 9 | KP *  |  DEL  |
+			// |       | HOME | END  | PGUP | PGDN |      |-------|-------|   {   | KP 4  | KP 5 | KP 6 | KP +  | KPENT |
+			// |       |      |      |      |      |  PP  |-------|-------|   }   | KP 1  | KP 2 | KP 3 | KP -  |  PP   |
+			// |-------|      |      |      |      | PREV |  Vol- | Vol+  |  NEXT |       | KP 0 | KP . | RAISE |-------|
+
             bindings = <
-                &kp ESC   &kp F2   &kp F3   &kp F4   &kp F5    &kp F6                  &kp F7    &kp F8              &kp F9              &kp F10      &kp F11          &kp F12
+                &kp F1  &kp F2   &kp F3    &kp F4    &kp F5    &kp F6                               &kp F7        &kp F8    &kp F9    &kp F10    &kp F11         &kp F12
                 &kp TILDE &kp EXCL &kp AT   &kp HASH &kp DLLR  &kp PRCNT               &kp CARET &kp AMPS            &kp ASTRK           &kp LPAR     &kp RPAR         &kp DEL
                 &trans    &kp F1   &kp F2   &kp F3   &kp F4    &kp F5                  &kp F6    &kp UNDER           &kp PLUS            &kp LBRC     &kp RBRC         &kp PIPE
                 &trans    &kp F7   &kp F8   &kp F9   &kp F10   &kp F11                 &kp F12   &kp LS(NON_US_HASH) &kp LS(NON_US_BSLH) &trans    &trans        &trans
