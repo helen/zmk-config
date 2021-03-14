@@ -44,8 +44,8 @@
                 &kp F1  &kp F2   &kp F3    &kp F4    &kp F5    &kp F6                               &kp F7        &kp F8    &kp F9    &kp F10    &kp F11         &kp F12
                 &trans  &trans   &kp K_APP &trans    &trans    &trans                               &kp KP_DIVIDE &kp KP_N7 &kp KP_N8 &kp KP_N9  &kp KP_MULTIPLY &kp DEL
                 &trans  &kp HOME &kp END   &kp PG_UP &kp PG_DN &trans                               &kp LBKT      &kp KP_N4 &kp KP_N5 &kp KP_N6  &kp KP_PLUS     &kp KP_ENTER
-                &trans    &kp F7   &kp F8   &kp F9   &kp F10   &kp F11                 &kp F12   &kp LS(NON_US_HASH) &kp LS(NON_US_BSLH) &trans    &trans        &trans
-                          &trans   &trans   &trans   &trans    &trans    &trans &trans &mo 3     &kp C_NEXT          &kp C_VOL_DN        &kp C_VOL_UP &kp C_PLAY_PAUSE 
+                &trans  &trans   &trans    &trans    &trans    &kp C_PP                             &kp RBKT      &kp KP_N1 &kp KP_N2 &kp KP_N3  &kp KP_MINUS    &kp C_PP
+                        &trans   &trans    &trans    &trans    &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT    &trans    &kp KP_N0 &kp KP_DOT &mo 2 
             >;
         };
 
