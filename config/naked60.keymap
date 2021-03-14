@@ -65,37 +65,5 @@
                              &trans  &none  &none  &none  &none  &bootloader &bootloader  &none  &none  &none  &none  &trans
             >;
         };
-
-        adjust {
-            // ----------------------------------------------------------------------------------------------------------
-            // |tog(4)|  F2  |  F3  |  F4  |  F5  |  F6  |------|------|  F7  |  F8  |  F9  |  F10 |  F11 |    F12    |
-            // |      |  NA  |  NA  |  NA  |  NA  |  NA  |------|------|  NA  |  NA  |  NA  |  NA  |  NA  |LALT(PRTSN)|
-            // |      |  NA  |  NA  |  NA  |  NA  |  NA  |------|------|  NA  |  NA  |  NA  |  NA  |  NA  |   PRTSN   |
-            // |      |  NA  |  NA  |  NA  |  NA  |  NA  |------|------|  NA  |  NA  |  NA  |  NA  |  NA  |LCTRL(DEL) |
-            // |------|      |      |      |      |      |BOOTLD|BOOTLD|      |      |      |      |      |-----------|
-            bindings = <
-                &tog 4 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6                         &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-                &trans &none  &none  &none  &none  &none                          &none  &none  &none  &none   &none   &kp LA(PSCRN)
-                &trans &none  &none  &none  &none  &none                          &none  &none  &none  &none   &none   &kp PSCRN
-                &trans &none  &none  &none  &none  &none                          &none  &none  &none  &none   &none   &kp LC(DEL)
-                       &trans &trans &trans &trans &trans &bootloader &bootloader &trans &trans &trans &trans  &trans
-            >;
-        };
-
-        flock {
-            // ----------------------------------------------------------------------------------------------------------
-            // |tog(4) |  F2    |   F3   |   F4   |   F5   |   F6   |-------|-------|  F7  |  F8  |  F9  | F10 | F11 |      |
-            // |out tog|BT_SEL 0|BT_SEL 1|BT_SEL 2|BT_SEL 3|BT_SEL 4|-------|-------|BT_PRV|BT_NXT|BT_CLR|     |     |      |
-            // |       |        |        |        |        |        |-------|-------|      |      |      |     |     |      |
-            // |       |        |        |        |        |        |-------|-------|      |      |      |     |     |      |
-            // |-------|        |        |        |        |        |       |       |      |      |      |     |     |------|
-            bindings = <
-                &tog 4       &kp F2       &kp F3       &kp F4       &kp F5       &kp F6                     &kp F7     &kp F8     &kp F9     &kp F10 &kp F11 &trans
-                &out OUT_TOG &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4               &bt BT_PRV &bt BT_NXT &bt BT_CLR &trans  &trans  &trans
-                &trans       &trans       &trans       &trans       &trans       &trans                     &trans     &trans     &trans     &trans  &trans  &trans
-                &trans       &trans       &trans       &trans       &trans       &trans                     &trans     &trans     &trans     &trans  &trans  &trans
-                             &trans       &trans       &trans       &trans       &trans       &trans &trans &trans     &trans     &trans     &trans  &trans
-            >;
-        };
     };
 };
