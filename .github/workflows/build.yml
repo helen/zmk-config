@@ -46,4 +46,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: firmware
-          path: naked60_left_nice_nano.uf2
+          path: naked60_nice_nano.uf2
