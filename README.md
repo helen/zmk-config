@@ -1,6 +1,6 @@
 # Helen's Super Cool ZMK Config
 
-See Actions runs for firmware downloads.
+See Actions runs for firmware downloads. Shield comes from @xiushak's [ZMK PR](https://github.com/zmkfirmware/zmk/pull/681).
 
 ## Naked60BMP
 
