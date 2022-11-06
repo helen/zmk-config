@@ -11,7 +11,7 @@ See Actions runs for firmware downloads. Shield comes from @xiushak's [ZMK PR](h
 |  TAB  |  Q   |  W   |  E   |  R   |  T   |       |       |   Y   |  U    |  I   |  O   |   P   |  '    |
 |  ESC  |  A   |  S   |  D   |  F   |  G   |       |       |   H   |  J    |  K   |  L   |   ;   | ENTER |
 | SHIFT |  Z   |  X   |  C   |  V   |  B   |       |       |   N   |  M    |  ,   |  .   |   /   |   \   |
-|       | LCTL | LALT | LGUI | LOWR |  FN  |   -   |   =   | SPACE | LEFT  | DOWN |  UP  | RIGHT |       |
+|       | LCTL | LALT | LGUI | LOWR |  FN  |   -   |   =   | SPACE | LEFT  |  UP  | DOWN | RIGHT |       |
 
 ### Layer 1
 
